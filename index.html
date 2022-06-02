@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    .button-group button {
+      background-color: green;
+      border: 1px blue;
+      color: white;
+    }
+  </style>
+
+<body>
+
+<h1 id = "header-1">The Document Object</h1>
+<h2>The addEventListener() Method</h2>
+
+<p id="tag-text">Click anywhere in the document to display "Hello World!".</p>
+
+<p id="demo">
+
+<div class = "button-group">
+  <button class="order" id="order-btn">Add New Order</button>
+  <button class="remove" id="remove-btn">Cancel Order</button>
+  <button class="display" id="display-btn">Display Orders</button>
+</div>
+
+<br>
+
+<!-- create a textbox to store the first name -->
+<input type="text" id="first-name-text" placeholder="First name"> 
+<br>
+<br>
+
+<!-- create a textbox to store the last name -->
+<input type="text" id="last-name-text" placeholder="Last name">
+<!-- next line -->
+<br>
+<br>
+
+<!-- create a textbox to store the mileage -->
+<input type="text" id="mileage-text" placeholder="Mileage"> Miles
+<br>
+<br>
+
+<!-- create a textbox to store the sequence -->
+<input type="text" id="sequence-text" placeholder="Sequence"> Sequence ID
+<br>
+<br>
+
+<!-- create a section to display the orders -->
+<section id="order-output-display-section">
+  <ul>
+    <li id="first-name-output"></li><br>
+    <li id="last-name-output"></li><br>
+    <li id="mileage-output"></li><br>
+    <li id="sequence-output"></li><br>
+  </ul>
+</section>
+
+<script type="text/javascript" src="order.js"></script>
+
+</body>
+</html>
